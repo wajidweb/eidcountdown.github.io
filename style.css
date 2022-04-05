@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    /* height: 100vh; */
+    background-image: url("assets/islamic-7093979_960_720.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+
+.innerContainer {
+    padding: 4rem;
+    background-color: rgba(0, 0, 0, 0.465);
+    /* height: 100vh; */
+    padding-top: 50px;
+    padding-bottom: 210px;
+}
+
+.eidmubarak {
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.taketimep {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.counterDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    width: 70%;
+}
+
+.numbersp {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.units {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .counterDiv {
+        flex-direction: column;
+    }
+}
